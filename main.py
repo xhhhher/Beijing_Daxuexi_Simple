@@ -7,10 +7,10 @@ from study import study
 def getAccounts():
     result = []
 
-    usernameRaw = os.getenv("USERNAME", "")
+    usernameRaw = "18962916015"
     if len(usernameRaw.split('\n')) == 1:
         # Single User
-        passwd = os.environ["PASSWORD"]
+        passwd = "xh20030330"
         if usernameRaw and passwd:
             result.append((usernameRaw, passwd))
     else:
